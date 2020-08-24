@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "averta";
+    src: url("fonts/Averta-Regular.otf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: "Intro";
+    src: url("fonts/intro.otf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Intro-Bold";
+    src: url("fonts/Intro Bold Regular.otf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* #app{
+    position: initial;
+    z-index: -5;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'averta';
+}
+body{
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+  
+label{
+    margin:0;
+    padding:0;
+} 
+
+body {
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+ul{
+    margin:0;
+}
+section{
+    padding: 150px 0;
+    overflow-x: hidden;
+    clear: both;
+}
+@media(max-width:1500px){
+    section{
+        padding: 100px 0;
+    }
+}
